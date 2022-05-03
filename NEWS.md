@@ -1,3 +1,5 @@
+# actigraphcounts 0.1.1
+
 \name{NEWS}
 \title{News for Package \pkg{actigraphcounts}}
 
