@@ -17,6 +17,6 @@ sum_counts = function(downsample_10hz, epoch = 60, verbose = FALSE) {
   epoch_counts[(block_size + 1):nrow(epoch_counts), ] = (epoch_counts[(block_size + 1):nrow(epoch_counts), ] -
                                                          epoch_counts[1:(nrow(epoch_counts) - block_size), ])
   epoch_counts = floor(epoch_counts[seq(block_size, nrow(epoch_counts), block_size),])
-  cat(" Done!\n")
+  if (verbose) cat(" Done!\n")
   return(epoch_counts)
 }

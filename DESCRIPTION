@@ -1,7 +1,7 @@
 Package: actigraphcounts
 Type: Package
 Title: Generate Activity Counts From Raw Accelerometer Data
-Version: 0.1.1
+Version: 0.4.1
 Author: Jairo Hidalgo Migueles
 Maintainer: Jairo Hidalgo Migueles <jairo.hidalgo.migueles@gmail.com>
 Description: The actigraphcounts R package is a translation of the 
