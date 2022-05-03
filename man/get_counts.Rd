@@ -23,3 +23,9 @@ Matrix containing the count values per epoch
 \description{
 get_counts
 }
+\references{
+{https://www.researchsquare.com/article/rs-1370418/v1}
+}
+\author{
+Jairo Hidalgo Migueles
+}

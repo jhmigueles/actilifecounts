@@ -5,6 +5,8 @@
 #' @param verbose Print diagnostic messages
 #'
 #' @return The trimmed/thresholded data
+#' @author Jairo Hidalgo Migueles
+#' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 #' @export
 trim_data = function(bpf_data = c(), lfe_select = FALSE, verbose = FALSE) {
   if (verbose) cat(paste0(rep('_', options()$width), collapse = ''))

@@ -4,6 +4,8 @@
 #' @param verbose Print diagnostic messages
 #'
 #' @return Resampled data
+#' @author Jairo Hidalgo Migueles
+#' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 #' @export
 resample_10hz = function(trim_data = c(), verbose = FALSE) {
   if (verbose) cat(paste0(rep('_', options()$width), collapse = ''))

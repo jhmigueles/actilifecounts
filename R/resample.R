@@ -7,6 +7,8 @@
 #'
 #' @return resampled_data
 #' @importFrom pracma Lcm
+#' @author Jairo Hidalgo Migueles
+#' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 #' @export
 resample = function(raw = c(), sf = 30, verbose = FALSE) {
   # suppressMessages(require(pracma))

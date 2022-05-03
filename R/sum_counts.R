@@ -5,6 +5,8 @@
 #' @param verbose Used to compute how many raw samples are used for computing an epoch
 #'
 #' @return Matrix with counts per epoch in the 3 axes
+#' @author Jairo Hidalgo Migueles
+#' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 #' @export
 sum_counts = function(downsample_10hz, epoch = 60, verbose = FALSE) {
   if (verbose) cat(paste0(rep('_', options()$width), collapse = ''))

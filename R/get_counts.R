@@ -7,6 +7,8 @@
 #' @param verbose Print diagnostic messages
 #'
 #' @return Matrix containing the count values per epoch
+#' @author Jairo Hidalgo Migueles
+#' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 #' @export
 get_counts <- function(raw, sf, epoch, lfe_select = FALSE, verbose = FALSE) {
 
