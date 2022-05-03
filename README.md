@@ -24,7 +24,7 @@ devtools::install_github("jhmigueles/actigraphcounts")
 
 ## Generating activity counts
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to generate activity counts.
 
 ``` r
 library(actigraphcounts)
