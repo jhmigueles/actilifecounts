@@ -6,9 +6,10 @@
 #' @param verbose Print diagnostic messages
 #'
 #' @return resampled_data
+#' @importFrom pracma Lcm
 #' @export
 resample = function(raw = c(), sf = 30, verbose = FALSE) {
-  suppressMessages(require(pracma))
+  # suppressMessages(require(pracma))
 
   if (verbose) cat("\nResampling data...")
 

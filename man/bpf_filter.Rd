@@ -7,7 +7,7 @@
 bpf_filter(downsample_data = c(), verbose = FALSE)
 }
 \arguments{
-\item{downsample_data}{Matrix containing downsampled data (as returned from agcounts::resample)}
+\item{downsample_data}{Matrix containing downsampled data}
 
 \item{verbose}{Print diagnostic messages}
 }

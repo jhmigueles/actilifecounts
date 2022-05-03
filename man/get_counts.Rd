@@ -18,7 +18,7 @@ get_counts(raw, sf, epoch, lfe_select = FALSE, verbose = FALSE)
 \item{verbose}{Print diagnostic messages}
 }
 \value{
-
+Matrix containing the count values per epoch
 }
 \description{
 get_counts
