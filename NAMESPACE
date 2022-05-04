@@ -2,8 +2,8 @@
 
 export(bpf_filter)
 export(get_counts)
-export(resample)
 export(resample_10hz)
+export(resample_30hz)
 export(sum_counts)
 export(trim_data)
 importFrom(gsignal,filter)

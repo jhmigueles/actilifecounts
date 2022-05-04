@@ -19,3 +19,9 @@ Matrix with counts per epoch in the 3 axes
 \description{
 Generate counts per epoch.
 }
+\references{
+Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
+}
+\author{
+Jairo Hidalgo Migueles
+}

@@ -1,5 +1,4 @@
 library(actigraphcounts)
-context("get_counts")
 test_that("get_counts calculates counts as expected", {
   # read dummy data (test file with 40 minutes of data sampled at 100 Hz)
   file = system.file("testfiles/testfile.csv", package = "actigraphcounts")

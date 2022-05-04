@@ -14,9 +14,10 @@ bpf_filter = function(downsample_data = c(), verbose = FALSE) {
   if (verbose) cat(paste0(rep('_', options()$width), collapse = ''))
   if (verbose) cat("\nFiltering data...")
 
-  # get coefficients
-  input_coeffs = as.numeric(actigraphcounts:::input_coeffs)
-  output_coeffs = as.numeric(actigraphcounts:::output_coeffs)
+  # input_coeffs and output_coeffs are stored as internal data in the package
+  # see data-raw/DATASET for more information on these values
+  input_coeffs = as.numeric(input_coeffs)
+  output_coeffs = as.numeric(output_coeffs)
 
   # zi filter
   zi = gsignal::filter_zi(filt = input_coeffs, a = output_coeffs)

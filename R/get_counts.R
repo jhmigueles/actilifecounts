@@ -15,7 +15,7 @@ get_counts <- function(raw, sf, epoch, lfe_select = FALSE, verbose = FALSE) {
   # Pipeline as in https://www.researchsquare.com/article/rs-1370418/v1
 
   # 1 - resample data to 30 Hz (steps 1 to 3 in results)
-  downsample_data = actigraphcounts::resample(raw = raw, sf = sf, verbose = verbose)
+  downsample_data = resample_30hz(raw = raw, sf = sf, verbose = verbose)
   # 2 - bandpass filter (step 4)
   bpf_data = bpf_filter(downsample_data, verbose = verbose)
   # 3 - rescale, rectify and threshold the signal (steps 5 to 7)

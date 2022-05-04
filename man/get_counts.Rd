@@ -24,7 +24,7 @@ Matrix containing the count values per epoch
 get_counts
 }
 \references{
-{https://www.researchsquare.com/article/rs-1370418/v1}
+Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 }
 \author{
 Jairo Hidalgo Migueles
