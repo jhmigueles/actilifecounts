@@ -1,6 +1,6 @@
 Package: actigraphcounts
 Type: Package
-Title: Generate Activity Counts From Raw Accelerometer Data
+Title: Generate Activity Counts from Raw Accelerometer Data
 Version: 0.4.1
 Author: Jairo Hidalgo Migueles
 Maintainer: Jairo Hidalgo Migueles <jairo.hidalgo.migueles@gmail.com>
