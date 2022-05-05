@@ -4,7 +4,9 @@
 \section{Changes in version 0.4-1 (release date: 5-2-2022)}{
 \itemize{
   \item Included test files
-  \item resample function renamed as resample_30hz
+  \item Resample function renamed as resample_30hz
+  \item Axes names included in output
+  \item The package handles both uniaxial and triaxial data
 }
 }
 

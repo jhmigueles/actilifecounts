@@ -11,6 +11,8 @@
 sum_counts = function(downsample_10hz, epoch = 60, verbose = FALSE) {
   if (verbose) cat(paste0(rep('_', options()$width), collapse = ''))
   if (verbose) cat("\nAggregating counts per epoch...")
+  # dimensions
+  n = nrow(downsample_10hz); m = ncol(downsample_10hz)
 
   # accumulator for epoch
   block_size = epoch * 10
@@ -19,6 +21,7 @@ sum_counts = function(downsample_10hz, epoch = 60, verbose = FALSE) {
   epoch_counts[(block_size + 1):nrow(epoch_counts), ] = (epoch_counts[(block_size + 1):nrow(epoch_counts), ] -
                                                          epoch_counts[1:(nrow(epoch_counts) - block_size), ])
   epoch_counts = floor(epoch_counts[seq(block_size, nrow(epoch_counts), block_size),])
+  epoch_counts = as.matrix(epoch_counts, ncol = m)
   if (verbose) cat(" Done!\n")
   return(epoch_counts)
 }

@@ -19,15 +19,24 @@ bpf_filter = function(downsample_data = c(), verbose = FALSE) {
   input_coeffs = as.numeric(input_coeffs)
   output_coeffs = as.numeric(output_coeffs)
 
+  # dimensions
+  n = nrow(downsample_data); m = ncol(downsample_data)
+
   # zi filter
   zi = gsignal::filter_zi(filt = input_coeffs, a = output_coeffs)
-  zi = t(matrix(rep(zi, 3), ncol = 3, byrow = F)) * downsample_data[1, ]
+  zi = t(matrix(rep(zi, m), ncol = m, byrow = F)) * downsample_data[1, ]
   zi = t(zi)
-  # colnames(zi) = c("accX", "accY", "accZ")
-  x = gsignal::filter(filt = input_coeffs, a = output_coeffs, x = downsample_data[, 1], zi = zi[, 1])
-  y = gsignal::filter(filt = input_coeffs, a = output_coeffs, x = downsample_data[, 2], zi = zi[, 2])
-  z = gsignal::filter(filt = input_coeffs, a = output_coeffs, x = downsample_data[, 3], zi = zi[, 3])
-  bpf_data = as.matrix(cbind(x[[1]], y[[1]], z[[1]]))
+
+  # loop to bpf-filter the axes
+  filtered = list()
+  for (axis in 1:m) filtered[[axis]] = gsignal::filter(filt = input_coeffs, a = output_coeffs,
+                                                       x = downsample_data[, axis], zi = zi[, axis])$y
+  # names
+  names(filtered) = colnames(downsample_data)
+
+  # to matrix
+  bpf_data = as.matrix(do.call(cbind.data.frame, filtered))
+  # bpf_data = as.matrix(cbind(x[[1]], y[[1]], z[[1]]))
   bpf_data = ((3.0 / 4096.0) / (2.6 / 256.0) * 237.5) * bpf_data
   if (verbose) cat(" Done!\n")
   return(bpf_data)

@@ -9,7 +9,7 @@ activity counts as described by [Ali Neishabouri et al.](https://www.researchsqu
 
 The actigraphcounts R package is mostly a translation of the python-based [agcounts](https://github.com/actigraph/agcounts) module.
 
-Additional features of the actigraphcuonts package include the possibility of
+Additional features of the actigraphcounts package include the possibility of
 calculating activity counts from any accelerometer brand, with a more flexible
 approach to handle different sampling frequencies.
 
@@ -34,3 +34,4 @@ raw = data.table::fread(filename)
 counts = get_counts(raw, sf = 100, epoch = 60, lfe_select = FALSE, verbose = TRUE)
 ```
 
+If 3 axes are provided, the code assumes that the columns represent the X, Y, and Z axes in that order.
