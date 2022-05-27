@@ -4,11 +4,10 @@ Title: Generate Activity Counts from Raw Accelerometer Data
 Version: 1.0.0
 Author: Jairo Hidalgo Migueles
 Maintainer: Jairo Hidalgo Migueles <jairo.hidalgo.migueles@gmail.com>
-Description: The actilifecounts R package is originally a translation of the 
-  python package agcounts <https://github.com/actigraph/agcounts>. The
-  R version of the package here allows the processing of data from any
-  accelerometer brand, with a more flexible approach to handle different
-  sampling frequencies.
+Description: A tool to obtain activity counts, originally a translation of the 
+  'python' package 'agcounts' <https://github.com/actigraph/agcounts>. This tool
+  allows the processing of data from any accelerometer brand, with a more flexible 
+  approach to handle different sampling frequencies.
 Encoding: UTF-8
 LazyData: true
 Depends: 
