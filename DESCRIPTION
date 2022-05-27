@@ -15,5 +15,6 @@ Depends:
 RoxygenNote: 7.1.2
 License: LGPL (>= 3)
 Suggests: 
+    covr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

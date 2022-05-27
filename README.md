@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/jhmigueles/actilifecounts/workflows/R-CMD-check/badge.svg)](https://github.com/jhmigueles/actilifecounts/actions)
+[![Codecov test coverage](https://codecov.io/gh/jhmigueles/actilifecounts/branch/master/graph/badge.svg)](https://app.codecov.io/gh/jhmigueles/actilifecounts?branch=master)
 <!-- badges: end -->
 
 The goal of actilifecounts is to generate [ActiGraph](https://actigraphcorp.com/)
