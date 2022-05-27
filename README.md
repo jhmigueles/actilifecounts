@@ -2,8 +2,8 @@
 # actilifecounts
 
 <!-- badges: start -->
-![GitHub Actions R-CMD-check](https://github.com/wadpac/GGIR/workflows/R-CMD-check-full/badge.svg)
-[![codecov](https://codecov.io/gh/wadpac/GGIR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/wadpac/GGIR)
+![GitHub Actions R-CMD-check](https://github.com/jhmigueles/actilifecounts/workflows/R-CMD-check-full/badge.svg)
+[![codecov](https://codecov.io/gh/jhmigueles/actilifecounts/branch/master/graph/badge.svg)](https://app.codecov.io/gh/jhmigueles/actilifecounts)
 <!-- badges: end -->
 
 The goal of actilifecounts is to generate [ActiGraph](https://actigraphcorp.com/)
