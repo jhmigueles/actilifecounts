@@ -1,6 +1,11 @@
 \name{NEWS}
 \title{News for Package \pkg{actigraphcounts}}
 
+\section{Changes in version 0.4.1 (release date: 27-5-2022)}{
+\itemize{
+  \item update package name to actilifecounts
+}
+}
 
 \section{Changes in version 0.4.0 (release date: 25-5-2022)}{
 \itemize{
