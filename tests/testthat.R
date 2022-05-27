@@ -1,4 +1,4 @@
 library(testthat)
 library(actilifecounts)
 
-test_check("actilifecounts")
+testthat::test_check("actilifecounts")
