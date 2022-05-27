@@ -1,7 +1,7 @@
-library(actigraphcounts)
+library(actilifecounts)
 test_that("pipeline works", {
   # read dummy data (test file with 40 minutes of data sampled at 100 Hz)
-  file = system.file("testfiles/testfile.csv", package = "actigraphcounts")
+  file = system.file("testfiles/testfile.csv", package = "actilifecounts")
   raw = read.csv(file, skip = 10)
 
   # resample data to 30 hz

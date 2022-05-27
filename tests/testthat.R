@@ -1,4 +1,4 @@
 library(testthat)
-library(actigraphcounts)
+library(actilifecounts)
 
-test_check("actigraphcounts")
+test_check("actilifecounts")
