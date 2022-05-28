@@ -5,7 +5,7 @@ testthat::test_that("get_counts calculates counts as expected", {
   raw = read.csv(file, skip = 10)
 
   # get counts with default filter
-  counts = get_counts(raw, sf = 100, epoch = 60, lfe_select = FALSE, verbose = FALSE)
+  counts = get_counts(raw, sf = 100, epoch = 60, lfe_select = FALSE, verbose = TRUE)
 
   expect_equal(nrow(counts), 40)
   expect_equal(ncol(counts), 3)

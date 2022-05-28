@@ -9,6 +9,12 @@ testthat::test_that("pipeline works", {
   expect_equal(nrow(downsample_data), 72000)
   expect_equal(ncol(downsample_data), 3)
   expect_equal(round(sum(downsample_data[,1]),2), -32593.27)
+  
+  # resample to 30 hz a 30hz file to improve test coverage
+  downsample_data = resample_30hz(downsample_data, sf = 30, verbose = FALSE)
+  expect_equal(nrow(downsample_data), 72000)
+  expect_equal(ncol(downsample_data), 3)
+  expect_equal(round(sum(downsample_data[,1]),2), -32593.27)
 
   # bandpass filter
   bpf_data = bpf_filter(downsample_data, verbose = FALSE)
