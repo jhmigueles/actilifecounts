@@ -1,14 +1,14 @@
 \name{NEWS}
 \title{News for Package \pkg{actigraphcounts}}
 
-\section{Changes in version 1.0.1 [] (Github-only release date: X-X-2022)}{
+\section{Changes in version 1.0.1 [arándano] (Github-only release date: 28-5-2022)}{
 \itemize{
   \item Improved test coverage
-  \item R-CMD-check and codecov badges in README
+  \item R-CMD-check, codecov and CRAN badges in README
 }
 }
 
-\section{Changes in version 1.0.0 [plátano] (Github-only release date: 27-5-2022)}{
+\section{Changes in version 1.0.0 [plátano] (release date: 27-5-2022)}{
 \itemize{
   \item Set up workflows
   \item Package ready for first CRAN release
