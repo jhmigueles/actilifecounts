@@ -4,7 +4,10 @@
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/jhmigueles/actilifecounts/workflows/R-CMD-check/badge.svg)](https://github.com/jhmigueles/actilifecounts/actions)
 [![Codecov test coverage](https://codecov.io/gh/jhmigueles/actilifecounts/branch/master/graph/badge.svg)](https://app.codecov.io/gh/jhmigueles/actilifecounts?branch=master)
+[![CRAN status](https://www.r-pkg.org/badges/version/actilifecounts)](https://CRAN.R-project.org/package=actilifecounts)
 <!-- badges: end -->
+
+-----
 
 The goal of actilifecounts is to generate [ActiGraph](https://actigraphcorp.com/)
 activity counts as described by [Ali Neishabouri et al.](https://www.researchsquare.com/article/rs-1370418/v1)
