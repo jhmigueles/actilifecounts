@@ -5,6 +5,7 @@
 [![R-CMD-check](https://github.com/jhmigueles/actilifecounts/workflows/R-CMD-check/badge.svg)](https://github.com/jhmigueles/actilifecounts/actions)
 [![Codecov test coverage](https://codecov.io/gh/jhmigueles/actilifecounts/branch/master/graph/badge.svg)](https://app.codecov.io/gh/jhmigueles/actilifecounts?branch=master)
 [![CRAN status](https://www.r-pkg.org/badges/version/actilifecounts)](https://CRAN.R-project.org/package=actilifecounts)
+[![](https://cranlogs.r-pkg.org/badges/last-month/actilifecounts)](https://cran.r-project.org/package=actilifecounts)
 [![DOI](https://zenodo.org/badge/488131424.svg)](https://zenodo.org/badge/latestdoi/488131424)
 <!-- badges: end -->
 
