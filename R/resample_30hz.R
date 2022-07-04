@@ -51,7 +51,8 @@ resample_30hz = function(raw = c(), sf = 30, verbose = FALSE) {
   colnames(downsample_data) = colnames(raw)
 
   # free memory
-  rm(raw, upsample_data, upsample_data_roll)
+  rm(raw, upsample_data)
+  if (exists("upsample_data_roll")) rm(upsample_data_roll)
   gc()
 
   # return

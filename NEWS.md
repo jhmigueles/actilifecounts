@@ -1,6 +1,12 @@
 \name{NEWS}
 \title{News for Package \pkg{actigraphcounts}}
 
+\section{Changes in version 1.0.2 [sandía] (Github-only release date: X-X-2022)}{
+\itemize{
+  \item Warning from trying to remove upscaling_roll_factor when not defined handled
+}
+}
+
 \section{Changes in version 1.0.1 [arándano] (Github-only release date: 28-5-2022)}{
 \itemize{
   \item Improved test coverage
