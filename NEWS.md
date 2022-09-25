@@ -1,10 +1,9 @@
 \name{NEWS}
-\title{News for Package \pkg{actigraphcounts}}
+\title{News for Package \pkg{actilifecounts}}
 
-\section{Changes in version 1.0.3 [grosella] (Github-only release date: 25-9-2022)}{
+\section{Changes in version 1.1.0 [grosella] (Github-only release date: 25-9-2022)}{
 \itemize{
   \item Included vector magnitude counts in the output
-  \item This corresponds with version 1.1.0 in CRAN
 }
 }
 
