@@ -24,6 +24,9 @@ get_counts <- function(raw, sf, epoch, lfe_select = FALSE, verbose = FALSE) {
   resample_10hz = resample_10hz(trim_data, verbose = verbose)
   # 5 - sum counts per epoch (step 9)
   epoch_counts = sum_counts(resample_10hz, epoch = epoch, verbose = verbose)
+  # 6 - additionally, add vector magnitude counts
+  epoch_counts = cbind(epoch_counts, sqrt(epoch_counts[,1]^2 + epoch_counts[,2]^2 + epoch_counts[,3]^2))
+  colnames(epoch_counts) = c(colnames(epoch_counts)[1:3], "VM")
 
   return(epoch_counts)
 }

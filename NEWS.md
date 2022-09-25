@@ -1,6 +1,19 @@
 \name{NEWS}
 \title{News for Package \pkg{actigraphcounts}}
 
+\section{Changes in version 1.0.3 [grosella] (Github-only release date: 25-9-2022)}{
+\itemize{
+  \item Included vector magnitude counts in the output
+  \item This corresponds with version 1.1.0 in CRAN
+}
+}
+
+\section{Changes in version 1.0.2 [sandía] (Github-only release date: 31-7-2022)}{
+\itemize{
+  \item Warning from trying to remove upscaling_roll_factor when not defined handled
+}
+}
+
 \section{Changes in version 1.0.1 [arándano] (Github-only release date: 28-5-2022)}{
 \itemize{
   \item Improved test coverage
