@@ -11,10 +11,11 @@ Description: A tool to obtain activity counts, originally a translation of the
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 2.10)
-Imports: gsignal, pracma
+Imports: pracma
 RoxygenNote: 7.2.1
 License: LGPL (>= 3)
 Suggests: 
     covr,
+    gsignal,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
