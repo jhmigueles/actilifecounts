@@ -1,7 +1,13 @@
 \name{NEWS}
 \title{News for Package \pkg{actigraphcounts}}
 
-\section{Changes in version 1.0.2 [sandía] (Github-only release date: X-X-2022)}{
+\section{Changes in version 1.0.2 [sandía] (Github-only release date: 25-9-2022)}{
+\itemize{
+  \item Included vector magnitude counts in the output
+}
+}
+
+\section{Changes in version 1.0.2 [sandía] (Github-only release date: 31-7-2022)}{
 \itemize{
   \item Warning from trying to remove upscaling_roll_factor when not defined handled
 }
