@@ -1,7 +1,7 @@
 Package: actilifecounts
 Type: Package
 Title: Generate Activity Counts from Raw Accelerometer Data
-Version: 1.0.2
+Version: 1.0.3
 Author: Jairo Hidalgo Migueles
 Maintainer: Jairo Hidalgo Migueles <jairo.hidalgo.migueles@gmail.com>
 Description: A tool to obtain activity counts, originally a translation of the 

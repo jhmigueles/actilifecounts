@@ -1,7 +1,7 @@
 \name{NEWS}
 \title{News for Package \pkg{actigraphcounts}}
 
-\section{Changes in version 1.0.2 [sandía] (Github-only release date: 25-9-2022)}{
+\section{Changes in version 1.0.3 [grosella] (Github-only release date: 25-9-2022)}{
 \itemize{
   \item Included vector magnitude counts in the output
 }
