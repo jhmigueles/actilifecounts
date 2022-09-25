@@ -2,7 +2,7 @@
 #' @description Bandpass filter for actigraph downsampled data
 #' @param downsample_data Matrix containing downsampled data
 #' @param verbose Print diagnostic messages
-#'
+#' @importFrom gsignal filter_zi filter
 #' @return The filtered data
 #' @author Jairo Hidalgo Migueles
 #' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
@@ -10,8 +10,6 @@
 #'
 bpf_filter = function(downsample_data = c(), verbose = FALSE) {
   
-  suppressMessages(requireNamespace("gsignal"))
-
   if (verbose) cat(paste0(rep('_', options()$width), collapse = ''))
   if (verbose) cat("\nFiltering data...")
 
