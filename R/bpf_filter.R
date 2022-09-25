@@ -4,7 +4,7 @@
 #' @param verbose Print diagnostic messages
 #'
 #' @return The filtered data
-#' @importFrom gsignal filter_zi filter
+#' @importFrom gsignal filter_zi filter 
 #' @author Jairo Hidalgo Migueles
 #' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 #' @export
