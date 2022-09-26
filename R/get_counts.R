@@ -1,12 +1,12 @@
 #' get_counts
 #'
-#' @param raw Matrix containing raw data
+#' @param raw Matrix containing raw data (3 columns, no timestamp should be included)
 #' @param sf Sample frequency of raw data (Hz)
 #' @param epoch Epoch length to aggregate activity counts
 #' @param lfe_select False for regular trimming, True for allow more noise
 #' @param verbose Print diagnostic messages
 #'
-#' @return Matrix containing the count values per epoch
+#' @return Matrix containing the count values per epoch in each axis and vector magnitude
 #' @author Jairo Hidalgo Migueles
 #' @references Ali Neishabouri et al. DOI: https://doi.org/10.21203/rs.3.rs-1370418/v1
 #' @export

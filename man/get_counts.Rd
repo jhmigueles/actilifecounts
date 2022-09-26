@@ -18,8 +18,7 @@ get_counts(raw, sf, epoch, lfe_select = FALSE, verbose = FALSE)
 \item{verbose}{Print diagnostic messages}
 }
 \value{
-Matrix containing the count values per epoch in the x, y, z axes and the
-vector magnitude of them.
+Matrix containing the count values per epoch in each axis and vector magnitude
 }
 \description{
 get_counts
