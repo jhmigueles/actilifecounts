@@ -7,20 +7,19 @@
   }
 }
 
-\section{Changes in version 1.0.2 [sandia] (Github-only release date: 31-7-2022)}{
+\section{Changes in version 1.0.2 [sandía] (Github-only release date: 31-7-2022)}{
 \itemize{
   \item Warning from trying to remove upscaling_roll_factor when not defined handled
   }
 }
 
-\section{Changes in version 1.0.1 [arandano] (Github-only release date: 28-5-2022)}{
+\section{Changes in version 1.0.1 [arándano] (Github-only release date: 28-5-2022)}{
 \itemize{
   \item Improved test coverage
-  \item R-CMD-check, codecov and CRAN badges in README
   }
 }
 
-\section{Changes in version 1.0.0 [platano] (release date: 27-5-2022)}{
+\section{Changes in version 1.0.0 [plátano] (release date: 27-5-2022)}{
 \itemize{
   \item Set up workflows
   \item Package ready for first CRAN release
